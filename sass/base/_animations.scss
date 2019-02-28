@@ -1,0 +1,43 @@
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;        /*only use opacity and transform for these animations*/
+        transform: translateX(-10rem);
+    }
+    
+    80% {
+        transform: translateX(10rem);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translate(0);    /*Looks exactly it looks as you designed it*/
+    }
+}
+
+@keyframes moveInRight {    /*Animations can happen at hover or click button as well.*/
+    0% {
+        opacity: 0;        /*only use opacity and transform for these animations*/
+        transform: translateX(10rem);
+    }
+    
+    80% {
+        transform: translateX(-1rem);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translate(0);    /*Looks exactly it looks as you designed it*/
+    }
+}
+
+@keyframes moveInButton {    /*Animations can happen at hover or click button as well.*/
+    0% {
+        opacity: 0;        /*only use opacity and transform for these animations*/
+        transform: translateY(3rem);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translate(0);    /*Looks exactly it looks as you designed it*/
+    }
+}
